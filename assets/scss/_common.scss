@@ -281,6 +281,28 @@ input[type="tel"] {
 }
 
 
+.section-title2 {
+  margin-bottom: 30px;
+
+  @include tablet {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px;
+    padding: 30px 0px;
+  }
+
+  p {
+    font-style: italic;
+    color: darken( $light, 57.64);
+    font-family: $font-secondary;
+  }
+}
+
+
 .section-subtitle {
   font-size: 28px;
   font-weight: 600;
