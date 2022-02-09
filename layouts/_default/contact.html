@@ -6,7 +6,7 @@
   <div class="container">
     {{ with site.Params.contact.form }}{{ if .enable -}}
     <div class="row">
-      <form method="POST" name="{{ printf "contact_%s" $.Language.Lang }}" action="{{ "/message_sent" | relLangURL }}" data-netlify="true" netlify-honeypot="nhp">
+      <form method="POST" name="{{ printf "contact_%s" $.Language.Lang }}" action="{{ "/message_sent" | relLangURL }}" data-netlify="true" netlify-honeypot="nhp" data-netlify-recaptcha="true">
         <div class="col-md-6 col-sm-12">
           <div class="block">
             <div class="form-group">
@@ -21,12 +21,11 @@
               <label for="subject" hidden>{{ i18n "contact_form_subject" }}</label>
               <input id="subject" name="subject" type="text" class="form-control" placeholder="{{ i18n "contact_form_subject" }}" required>
             </div>
-            <div class="form-group-h">
-              <input name="nhp" type="text" class="form-control" placeholder="Are you human?">
-            </div>
-            <div class="form-group-h">
-              <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
-            </div>
+            <p class="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="nhp" />
+              </label>
+            </p>
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
@@ -35,6 +34,7 @@
               <label for="message" hidden>{{ i18n "contact_form_message" }}</label>
               <textarea id="message" name="message" class="form-control" rows="4" placeholder="{{ i18n "contact_form_message" }}" required></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button class="btn btn-default" type="submit">{{ i18n "submit" }}</button>
           </div>
         </div>
