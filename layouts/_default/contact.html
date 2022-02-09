@@ -21,16 +21,12 @@
               <label for="subject" hidden>{{ i18n "contact_form_subject" }}</label>
               <input id="subject" name="subject" type="text" class="form-control" placeholder="{{ i18n "contact_form_subject" }}" required>
             </div>
-            {{ if .use_netlify -}}
             <div class="form-group-h">
               <input name="nhp" type="text" class="form-control" placeholder="Are you human?">
             </div>
-            {{- end }}
-            {{ if .use_recaptcha -}}
             <div class="form-group-h">
               <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
             </div>
-            {{- end }}
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
