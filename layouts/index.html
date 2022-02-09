@@ -37,6 +37,11 @@
             {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
           {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+          {{ with .button }}
+          {{ if .enable }}
+          <a href="{{ .link | relURL }}" class="btn btn-view-works">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -73,6 +78,32 @@
 {{ end }}
 <!-- /portfolio -->
 
+<!-- the_data -->
+{{ with .Params.thedata }}
+{{ if .enable }}
+<section class="thedata section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+          </div>
+          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="{{ .image | relURL }}" class="img-responsive" alt="Img">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /thedata -->
+
 <!-- service -->
 {{ if .Params.service.enable }}
 {{ partial "service.html" . }}
@@ -91,13 +122,12 @@
 <section class="testimonial">
   <div class="container">
     <div class="row">
-      <div class="section-title text-center">
+      <div class="section-title2 text-center">
         {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
-        {{ with .description }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="block">
           <ul class="counter-box clearfix">
             {{ range .funfact_item }}
@@ -108,22 +138,6 @@
             </li>
             {{ end }}
           </ul>
-        </div>
-      </div>
-      <div class="col-md-5 col-md-offset-1">
-        <div class="testimonial-carousel text-center">
-          <div class="testimonial-slider owl-carousel">
-            {{ range .testimonial_slider }}
-            <div>
-              <i class="fas fa-quote-left"></i>
-              {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
-              <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
-                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-              </div>
-            </div>
-            {{ end }}
-          </div>
         </div>
       </div>
     </div>
