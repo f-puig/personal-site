@@ -1,0 +1,58 @@
+.publication-table {
+  
+  h2 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: lighten( $black, 16.078);
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: lighten( $black, 16.078);
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  li {
+    margin: 0 0 5px;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  p {
+    font-weight: normal;
+    margin: 0 0 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .btn-pub {
+    font-size: 12px;
+    border: 2px solid #40E0D0;
+    border-radius: 4px;
+    background: transparent;
+    padding: 2px 5px;
+    color: #40E0D0;
+    margin-bottom: 20px;
+  }
+  
+  .btn-pub-cover {
+    font-size: 12px;
+    border: 2px solid #13AE4B;
+    border-radius: 4px;
+    background: transparent;
+    padding: 2px 5px;
+    color: #13AE4B;
+    margin-bottom: 20px;
+  }
+  
+  .badges {
+    float: right;
+  } 
+
+}

@@ -1,0 +1,157 @@
+.outreach-list {
+
+  h2 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: lighten( $black, 16.078);
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: lighten( $black, 16.078);
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  
+  li {
+    margin: 0 0 5px;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+  }
+  
+  .icon-flag {
+     height: 20px;
+     width: 20px;
+     display: inline-block;
+     background-position: center;
+     background-size:cover;
+     margin-bottom: 5px;
+  } 
+  
+  p {
+    text-align: justify;
+  }
+  
+  .btn-pub {
+    font-size: 12px;
+    border: 2px solid #FF5733;
+    border-radius: 4px;
+    background: transparent;
+    padding: 2px 5px;
+    color: #FF5733;
+    margin-bottom: 20px;
+  }
+  
+  .btn-pub-photo {
+    font-size: 12px;
+    border: 2px solid #5F021F;
+    border-radius: 4px;
+    background: transparent;
+    padding: 2px 5px;
+    color: #5F021F;
+    margin-bottom: 20px;
+  }
+  
+  .btn-pub-DOI {
+    font-size: 12px;
+    border: 2px solid #40E0D0;
+    border-radius: 4px;
+    background: transparent;
+    padding: 2px 5px;
+    color: #40E0D0;
+    margin-bottom: 20px;
+  }
+  
+}
+
+.outreach {
+  
+  .carousel {
+    padding: 10px 10px;
+    border: 1px solid darken( $light, 61.37);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: lighten( $black, 16.078);
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-weight: bold;
+    margin: 0 0 5px;
+    color: lighten( $black, 16.078);
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  .carousel-indicators li {
+    background-color: darken( $light, 20.37);
+    border-color: darken( $light, 20.37);
+    border: 1px;
+    display: inline-block;
+    transition: all 0.25s ease;
+    text-align: center;
+    float: center;
+  }
+    
+  .carousel-indicators .active {
+    background-color: darken( $light, 61.37);
+    border-color: darken( $light, 61.37);
+    border: 1px;
+  }
+  
+  .carousel-caption{
+    
+    h3 {
+      font-weight: bold;
+      margin: 0 0 0;
+      color: lighten( $black, 16.078);
+      font-size: 20px;
+      text-transform: none;
+      text-align: center;
+      background: rgba(255,255,255,0.9);
+    }
+    
+    p {
+      font-weight: normal;
+      margin: 0 0 0;
+      color: lighten( $black, 16.078);
+      font-size: 15px;
+      text-transform: none;
+      text-align: center;
+      background: rgba(255,255,255,0.9);
+    }
+  }
+  
+  p {
+    font-weight: normal;
+    margin: 0 0 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .badges {
+    float: right;
+  }
+  
+  .carousel-control .fa-chevron-left, 
+  .carousel-control .fa-chevron-right {
+    position: absolute;
+     top: 50%;
+     z-index: 5;
+     display: inline-block;
+     margin-right: -15px;
+     margin-left: -15px;
+  }
+
+}

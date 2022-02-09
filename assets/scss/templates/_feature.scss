@@ -15,6 +15,13 @@
     background-attachment: unset;
   }
 
+  .col-md-offset-6 {
+    background: rgba(255,255,255,0.9);
+    position: relative;
+    right: 0;
+    padding: 20 20px;
+  }
+  
   h2 {
     margin: 0px;
     padding-top: 30px;
@@ -24,6 +31,7 @@
   p {
     color: darken( $light, 41.37);
     margin-bottom: 20px;
+    text-align: justify;
   }
 
   .btn-view-works {
@@ -32,4 +40,5 @@
     padding: 10px 20px;
     margin-bottom: 30px;
   }
+  
 }
