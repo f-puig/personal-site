@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- conferences -->
+{{ with .Params.conferences }}
+{{ if .enable }}
+<section class="conferences-list section bg-gray">
+  <div class="container-fluid">
+    {{ range .typecont }}
+    <div class="row">
+      <div class="col-md-12">
+        {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+        {{ range .years}}
+        <div class="row">
+          <div class="col-md-2">
+            <div class="col-md-6 col-md-offset-3">
+              {{ with .year }}<h3>{{ . | markdownify }}</h3>{{ end }}
+            </div>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-10 col-sm-12 col-xs-12">
+                {{ range .contributions}}
+                <ol>
+                  <li value = {{ .number | markdownify }}><p>{{ if .invited }}&#11088;<span style='color: #ff7700;'>Invited </span>{{end}}{{ if .award }}&#129351;<span style='color: red;'>Best poster </span>{{end}}<span style='font-size: 18px; font-weight: bold; color: black;'>{{ .title | markdownify }}</span></p>
+                  </li>
+                  <p><span style='font-weight: bold;' >{{ with .event }}{{ . | markdownify }}. {{ end}}{{ with .city }}{{ . | markdownify }}, {{ end}}{{ with .country }}{{ . | markdownify }}. {{ end}}</span>{{with .start_date }}{{ . | markdownify }}{{ end }}{{with .end_date }} - {{ . | markdownify }}{{ end }}{{ if .travel_grant }}<span style='color: blue;'> &#9992;Travel grant</span>{{end}}</p>
+                </ol>
+                {{ end }}
+              </div>
+            </div>
+          </div>
+        </div> 
+        {{ end }}
+      </div>
+      <p style='color:  $light;' >>.</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
+<!-- /conferences-->
+
+{{ end }}

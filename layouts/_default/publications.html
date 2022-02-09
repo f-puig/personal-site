@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- publications -->
+{{ with .Params.publications }}
+{{ if .enable }}
+<section class="publication-table section bg-gray">
+  <div class="container-fluid">
+    {{ range .typepub }}
+    <div class="row">
+      <div class="col-md-12">
+        {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+        {{ range .years }}
+        <div class="row">
+          <div class="col-md-1 col-md-offset-1">
+            {{ with .yearname }}<h3>{{ . | markdownify }}</h3>{{ end }}
+          </div>
+          <div class="col-md-10">
+            {{ range .articlemetadata }}
+            <div class="row">
+              <div class="col-md-10 col-sm-12 col-xs-12">
+                <ol>
+                  <li value = {{ .articlenum | markdownify }}><p> &#128240;{{if .Hot}}<span style='color: red;'>&#128293; Hot paper </span>{{ end }} <span style='font-size: 18px; font-weight: bold; color: black;'>{{ .titlepub | markdownify }}</span>
+                  </li>
+                  <p> {{ .preFPC | markdownify }}{{ with .preFPC | markdownify}} {{ end }}<span style='font-weight: bold;'>{{ .FPC | markdownify }}</span>{{ with .postFPC | markdownify}}, {{ end }}{{ .postFPC | markdownify }}. <span style='font-weight: bold;'>{{ .journal | markdownify }}</span> ({{ .yearpub | markdownify }}). {{ .volume | markdownify }}, {{ .pages | markdownify }}.</p>
+                    {{ with .DOIbutton }}
+                    {{ if .enable }}
+                    <a class="btn btn-pub" href="{{ .DOIlink | safeURL }}">{{ "DOI" }}</a>
+                    {{ end }}
+                    {{ end }}
+                    {{ with .coverbutton }}
+                    {{ if .enable }}
+                    <a class="btn btn-pub-cover" href="{{ .DOIlink | safeURL }}">{{ "cover" }}</a>
+                    {{ end }}
+                    {{ end }}
+                </ol>
+              </div>
+              <div class="col-md-2 col-sm-12 col-xs-12">
+                {{ with .DOIbutton }}
+                {{ if .enable }}
+                <div data-badge-popover="left" data-badge-type="donut" data-doi='{{ .DOI }}' data-hide-no-mentions="true" class="altmetric-embed"></div>
+                <div class="__dimensions_badge_embed__" data-doi='{{ .DOI }}' data-hide-zero-citations="true" data-style="small_circle"></div>
+                {{ end }}
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div> 
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /publications-->
+
+{{ end }}
