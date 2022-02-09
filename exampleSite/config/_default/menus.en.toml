@@ -12,13 +12,13 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Project"
-url = "project/"
+name = "Publications"
+url = "publications/"
 weight = 3
 
 [[main]]
-name = "Blog"
-url = "blog/"
+name = "Outreach"
+url = "Outreach/"
 weight = 4
 
 [[main]]
@@ -28,14 +28,14 @@ hasChildren = true
 
   [[main]]
   parent = "More"
-  name = "Service"
-  url = "service/"
+  name = "Blog"
+  url = "Blog/"
   weight = 1
 
   [[main]]
   parent = "More"
-  name = "Pricing"
-  url = "pricing/"
+  name = "Conferences"
+  url = "conferences/"
   weight = 2
 
   [[main]]
