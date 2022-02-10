@@ -8,6 +8,7 @@
     line-height: 25px;
     color: lighten( $black, 56.86274509803921 );
   }
+  
   a {
     color: lighten( $black, 34.9 );
   }
@@ -52,6 +53,9 @@
   }
   
   .copyright {
+    font-size: 13px;
+    line-height: 25px;
+    color: lighten( $black, 56.86274509803921 );
     a {
       font-weight: 600;
     }
