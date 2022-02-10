@@ -9,6 +9,8 @@ link = "plugins/font-awesome/brands.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/solid.css"
 [[params.plugins.js]]
+link = "https://badge.dimensions.ai/badge.js"
+[[params.plugins.js]]
 link = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
