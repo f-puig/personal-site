@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: Discover my research
-    link: project
+    link: research
 about:
   enable: true
   title: Understanding biological systems with chemometrics
@@ -48,7 +48,7 @@ portfolio:
   button:
     enable: true
     label: View publications
-    link: project
+    link: publications
 thedata:
   enable: true
   image: images/feature3-img.png
