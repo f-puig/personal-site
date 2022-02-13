@@ -27,7 +27,7 @@ about:
   button:
     enable: true
     label: My CV
-    link: project
+    link: CV_Francesc_20210931.pdf
 portfolio:
   enable: true
   bg_image: images/feature2-bg.jpg
