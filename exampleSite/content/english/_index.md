@@ -22,7 +22,7 @@ about:
     interested in the development of methods for the analysis of metabolomics data,
     and of methods capable to combine and integrate data from different sources (multi-omics
     data analysis). '
-  image: images/wrapper-img.png
+  image: images/personal_photo2.jpg
   funfacts: []
   button:
     enable: true
