@@ -1,7 +1,7 @@
 ---
 title: "Research"
 description: ''
-layout: outreach
+layout: research
 research:
   enable: true
   title2a: Study of microbial communities subjected to perturbations using omics approaches
