@@ -8,7 +8,7 @@ banner:
   button:
     enable: true
     label: Discover my research
-    link: research.html
+    link: research
 about:
   enable: true
   title: Understanding biological systems with chemometrics
@@ -27,7 +27,7 @@ about:
   button:
     enable: true
     label: My CV
-    link: https://www.linkedin.com/in/francesc-puig
+    link: CV_Francesc_20210931.pdf
 portfolio:
   enable: true
   bg_image: images/feature2-bg.jpg
@@ -47,8 +47,8 @@ portfolio:
     the ionic strength, pH,…).
   button:
     enable: true
-    label: View Works
-    link: project
+    label: View publications
+    link: publications
 thedata:
   enable: true
   image: images/feature3-img.png
