@@ -34,7 +34,6 @@
   ul {
     list-style-type: disc;
     padding-left: 40px;
-    max-width: 75%;
   }
   
   p {
@@ -46,10 +45,11 @@
     text-align: center;
   }
   
-  .square {
+  .img-square {
     background-position: center;
     background-size:cover;
     margin-bottom: 5px;
+    max-width: 75%;
   }
   
 }
