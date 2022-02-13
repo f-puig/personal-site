@@ -46,10 +46,13 @@
   }
   
   .square-img {
-    background-position: center;
-    background-size:cover;
     margin-bottom: 5px;
-    max-width: 75%;
+  }
+  
+  .bottom-pos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
   
 }
