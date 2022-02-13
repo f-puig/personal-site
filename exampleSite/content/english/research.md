@@ -29,6 +29,6 @@ research:
   title2b_part6: "To end, more recently, I have been working on how to annotate, store, organize and access measured data to improve data management practices."
   image2b: images/res_line2b.png
  
-  publications: For more details about my research, see **[publications](https://francescpuig.netlify.app/publications/)**.
+  publications: For more details about my research, check my **[publications](https://francescpuig.netlify.app/publications/)**.
   
 ---
