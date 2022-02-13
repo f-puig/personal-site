@@ -22,6 +22,8 @@
 	      </div>
 	    </div>
 	  </div>
+  </div>
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
         {{ with .title2a }}<h3>{{ . | markdownify }}</h3>{{ end }}
@@ -40,14 +42,14 @@
         </div>
       </div>
     </div>
-      <div class="row">
+    <div class="row">
       <div class="col-md-12">
         {{ with .title2b }}<h3>{{ . | markdownify }}</h3>{{ end }}
         <div class="container">
           {{ with .title2b_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2b_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
-          {{ with .title2a_part3 }}<p>{{ . | markdownify }}</p>{{ end }}
-          {{ with .title2a_part4 }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{ with .title2b_part3 }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{ with .title2b_part4 }}<p>{{ . | markdownify }}</p>{{ end }}
           <ul>
             {{ range .title2b_part5 }}
             <li><p>{{ .item | markdownify }}</p></li>
