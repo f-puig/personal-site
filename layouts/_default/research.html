@@ -28,13 +28,6 @@
         <div class="container">
           {{ with .title2a_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
-          {{ with .title2a_part3 }}
-          <ol>
-            {{ range items}}
-            <li>{{ .item | markdownify }}</li>
-            {{ end }}
-          </ol>
-          {{ end }}
           {{ with .title2a_part4 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part5 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part6 }}<p>{{ . | markdownify }}</p>{{ end }}
