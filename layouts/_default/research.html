@@ -12,22 +12,23 @@
         <div class="block bottom-pos">
           <h4>Study of microbial communities subjected to perturbations using omics approaches</h4>
         </div>
-        <div class="row">
-          <div class="block">
-            <a href="#research-line-1"><img class="square-img" src={{ .image2a | relURL }} /></a>
-          </div>
-        </div>
       </div>
       <div class="col-md-4 col-md-offset-2">
 	      <div class="block bottom-pos">
 	        <h4>Development of chemometric tools</h4>
 	      </div>
-        <div class="row">
-          <div class="block">
-            <img class="square-img" src={{ .image2b | relURL }} />
-	        </div>
-        </div>  
       </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-1">    
+        <div class="block">
+          <a href="#research-line-1"><img class="square-img" src={{ .image2a | relURL }} /></a>
+        </div>
+      </div>
+      <div class="col-md-4 col-md-offset-2">
+        <div class="block">
+          <a href="#research-line-2"><img class="square-img" src={{ .image2b | relURL }} /></a>
+	      </div>
+      </div>  
 	  </div>
   </div>
   <div class="container">
@@ -51,7 +52,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        {{ with .title2b }}<h3>{{ . | markdownify }}</h3>{{ end }}
+         <a name="research-line-1">{{ with .title2b }}<h3>{{ . | markdownify }}</h3>{{ end }}</a>
         <div class="block">
           {{ with .title2b_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2b_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
