@@ -7,8 +7,8 @@ banner:
   content: Postdoctoral researcher
   button:
     enable: true
-    label: Discover Our Project
-    link: project
+    label: Discover my research
+    link: research.html
 about:
   enable: true
   title: Understanding biological systems with chemometrics
