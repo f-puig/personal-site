@@ -61,7 +61,6 @@ url = "Outreach/"
 weight = 4
 
 [[footer]]
-parent = "More"
 name = "Blog"
 url = "Blog/"
 weight = 5
