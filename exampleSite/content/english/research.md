@@ -1,5 +1,5 @@
 ---
-title: Research
+title: "Research"
 description: ''
 layout: outreach
 research:
@@ -28,6 +28,5 @@ research:
       item: "The VOI chemometric method for removing noise in multidimensional NMR data. This method was initially designed to remove noise from datasets of 2D NMR spectra of metabolomics samples, where peak selection and discerning between small resonances and peaks or noise can be tedious. Matlab and R scripts can be downloaded from the project's GitHub page (link). In addition, this method has been included in the commercial program MestreNova (link)."
       item: "The R.ComDim package, which contains the functions to be able to use the ComDim method. ComDim is a chemometric method for analyzing multi-sets. The solution obtained with ComDim maximizes the common variance among all the sets. In addition, one of the advantages of using ComDim lies in the fact that the matrices resulting from this decomposition are not only informative for each set, but also reveal how the different sets are related to each other. The ComDim method was initially coded in Matlab by the Chimiométrie group (link). In the R.ComDim package, matrix operations were programmed by taking advantage of the R data.table package to reduce computation times. In addition, additional functions were added to facilitate the construction of multiple sets and to generate graphs to aid in the interpretation of the data. The R.ComDim package can be downloaded from the project's GitHub page (link)."
   title2b_part6: "To end, more recently, I have been working on how to annotate, store, organize and access measured data to improve data management practices."
-
   
-  
+---
