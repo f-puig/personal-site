@@ -23,7 +23,6 @@
     color: lighten( $black, 16.078);
     font-size: 18px;
     text-transform: uppercase;
-    display: flex;
     text-align: center;
   }
   
@@ -53,6 +52,7 @@
   
   .bottom-pos {
     vertical-align: bottom;
+    padding-bottom: 0;
   }
   
 }
