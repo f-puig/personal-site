@@ -8,7 +8,6 @@ research:
   title2a_part1: "In order to exist, microbial communities live in an ecological equilibrium. However, this equilibrium can be distorted by an environmental disturbance (e.g., nutrient limitation, exposure to chemical hazards)."
   title2a_part2: "In my research, I study the biological responses of microorganisms in these communities to these exposures with the aim to:"
   title2a_part3:
-    items:
     - item: "understand microbial mechanisms to cope with perturbations."
     - item: "discover whether the perturbations trigger some metabolic process in one or more microbial species that interferes with the growth of other species or leads to a modification of ecosystem characteristics. An example of the latter is when changes in our dietary pattern alter the intestinal microbiota, which ends up affecting our state of health."
     - item: "identify how microbial communities are modified in order to be able to identify new strategies to counteract the effect of perturbations and thus return the microbial communities to the ecological balance that existed before the perturbation."
