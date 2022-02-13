@@ -7,8 +7,8 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Research"
+url = "research/"
 weight = 2
 
 [[main]]
@@ -37,12 +37,6 @@ hasChildren = true
   name = "Conferences"
   url = "conferences/"
   weight = 2
-
-  [[main]]
-  parent = "More"
-  name = "FAQ"
-  url = "faq/"
-  weight = 3
   
 [[main]]
 name = "Contact"
@@ -52,31 +46,27 @@ weight = 6
 
 # footer menu
 [[footer]]
-name = "About"
-url = "about/"
+name = "Research"
+url = "research/"
 weight = 2
 
 [[footer]]
-name = "Project"
-url = "project/"
+name = "Publications"
+url = "publications/"
 weight = 3
 
 [[footer]]
-name = "Service"
-url = "service/"
+name = "Outreach"
+url = "Outreach/"
 weight = 4
 
 [[footer]]
-name = "Pricing"
-url = "pricing/"
+parent = "More"
+name = "Blog"
+url = "Blog/"
 weight = 5
-
-[[footer]]
-name = "FAQ"
-url = "faq/"
-weight = 6
 
 [[footer]]
 name = "Contact"
 url = "contact/"
-weight = 7
+weight = 6
