@@ -51,9 +51,10 @@
   }
   
   .bottom-pos {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
   }
   
 }
