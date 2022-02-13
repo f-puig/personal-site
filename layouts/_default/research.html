@@ -14,7 +14,7 @@
         </div>
         <div class="row">
           <div class="block">
-            <p><img class="square-img" src={{ .image2a | relURL }} /></p>
+            <a href="#research-line-1"><img class="square-img" src={{ .image2a | relURL }} /></a>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
 	      </div>
         <div class="row">
           <div class="block">
-            <p><img class="square-img" src={{ .image2b | relURL }} /></p>
+            <img class="square-img" src={{ .image2b | relURL }} />
 	        </div>
         </div>  
       </div>
@@ -33,7 +33,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        {{ with .title2a }}<h3>{{ . | markdownify }}</h3>{{ end }}
+        <a name="research-line-1">{{ with .title2a }}<h3>{{ . | markdownify }}</h3>{{ end }}</a>
         <div class="block">
           {{ with .title2a_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
