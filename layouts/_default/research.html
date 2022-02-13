@@ -29,9 +29,11 @@
           {{ with .title2a_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part3 }}
-          {{ range items}}
-          <ol><li>{{ .item | markdownify }}</li></ol>
-          {{ end }}
+          <ol>
+            {{ range items}}
+            <li>{{ .item | markdownify }}</li>
+            {{ end }}
+          </ol>
           {{ end }}
           {{ with .title2a_part4 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part5 }}<p>{{ . | markdownify }}</p>{{ end }}
