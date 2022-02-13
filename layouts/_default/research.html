@@ -9,10 +9,10 @@
   <div class="container">
     <div class="row bottom-pos">
       <div class="col-md-4 col-md-offset-1">
-        <h4>Study of microbial communities subjected to perturbations using omics approaches</h4>
+        {{ with .title2a }}<h4>{{ . | markdownify }}</h4>{{ end }
       </div>
       <div class="col-md-4 col-md-offset-2">
-	      <h4>Development of chemometric tools</h4>
+	      {{ with .title2b }}<h4>{{ . | markdownify }}</h4>{{ end }
       </div>
     </div>
   </div>
