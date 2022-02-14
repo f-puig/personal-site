@@ -10,25 +10,17 @@
     <div class="row bottom-pos">
       <div class="col-md-4 col-md-offset-1">
         <h4>Study of microbial communities subjected to perturbations using omics approaches</h4>
-      </div>
-      <div class="col-md-4 col-md-offset-2">
-	      <h4>Development of chemometric tools</h4>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-1">    
-        <div class="block">
+        <div class="block-center">
           <a href="#research-line-1"><img class="square-img" src={{ .image2a | relURL }} /></a>
         </div>
       </div>
       <div class="col-md-4 col-md-offset-2">
-        <div class="block">
+	      <h4>Development of chemometric tools</h4>
+        <div class="block-center">
           <a href="#research-line-2"><img class="square-img" src={{ .image2b | relURL }} /></a>
 	      </div>
-      </div>  
-	  </div>
+      </div>
+    </div>
   </div>
   <div class="container">
     <div class="row">
@@ -46,6 +38,23 @@
           {{ with .title2a_part5 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part6 }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .title2a_part7 }}<p>{{ . | markdownify }}</p>{{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+         <a name="research-line-2">{{ with .title2b }}<h3>{{ . | markdownify }}</h3>{{ end }}</a>
+        <div class="block">
+          {{ with .title2b_part1 }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{ with .title2b_part2 }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{ with .title2b_part3 }}<p>{{ . | markdownify }}</p>{{ end }}
+          {{ with .title2b_part4 }}<p>{{ . | markdownify }}</p>{{ end }}
+          <ul>
+            {{ range .title2b_part5 }}
+            <li><p>{{ .item | markdownify }}</p></li>
+            {{ end }}
+          </ul>
+          {{ with .title2b_part6 }}<p>{{ . | markdownify }}</p>{{ end }}
         </div>
       </div>
     </div>
