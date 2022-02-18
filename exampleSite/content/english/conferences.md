@@ -76,7 +76,7 @@ conferences:
         start_date: 14/12/2021
         end_date: ""
         award: false
-        invited: true
+        invited: false
         
     - year: 2020
       contributions:
