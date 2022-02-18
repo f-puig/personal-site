@@ -8,7 +8,23 @@ publications:
   - title: Articles in scientific journals
     years:
     - yearname: "2022"
-      articlemetadata: []
+      articlemetadata:
+      - articlenum: "17"
+        Hot: false
+        titlepub: "A longitudinal study of the effect of temperature modification in full-scale anaerobic digesters – dataset combining 16S rDNA gene sequencing, metagenomics, and metabolomics data"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Cédric Midoux, Angéline Guenne, Delphine Conteau, Oscar Franchi,
+          Chrystelle Bureau, Céline Madigou, Delphine Jouan-Rimbaud Bouveresse, Pablo
+          Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleu"
+        journal: Data in Brief
+        volume: ''
+        pages: "107960"
+        yearpub: "2022"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1016/j.dib.2022.107960
+          DOI: 10.1016/j.dib.2022.107960
+          enable: true
+        coverbutton: ''
     - yearname: "2021"
       articlemetadata:
       - articlenum: "16"
@@ -20,7 +36,7 @@ publications:
           Chrystelle Bureau, Céline Madigou, Delphine Jouan-Rimbaud Bouveresse, Pablo
           Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleu"
         journal: Bioresource Technology
-        volume: ''
+        volume: '346'
         pages: "126612"
         yearpub: "2021"
         DOIbutton:
