@@ -17,7 +17,7 @@ publications:
           Chrystelle Bureau, Céline Madigou, Delphine Jouan-Rimbaud Bouveresse, Pablo
           Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleu"
         journal: Data in Brief
-        volume: ''
+        volume: '41'
         pages: "107960"
         yearpub: "2022"
         DOIbutton:
