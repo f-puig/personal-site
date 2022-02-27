@@ -15,7 +15,7 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Cédric Midoux, Angéline Guenne, Delphine Conteau, Oscar Franchi,
           Chrystelle Bureau, Céline Madigou, Delphine Jouan-Rimbaud Bouveresse, Pablo
-          Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleu"
+          Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleur"
         journal: Data in Brief
         volume: '41'
         pages: "107960"
@@ -34,7 +34,7 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Cédric Midoux, Angéline Guenne, Delphine Conteau, Oscar Franchi,
           Chrystelle Bureau, Céline Madigou, Delphine Jouan-Rimbaud Bouveresse, Pablo
-          Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleu"
+          Kroff, Laurent Mazéas, Douglas N Rutledge, Gilberte Gaval, Olivier Chapleur"
         journal: Bioresource Technology
         volume: '346'
         pages: "126612"
