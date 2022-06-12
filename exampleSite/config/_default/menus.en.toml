@@ -28,15 +28,9 @@ hasChildren = true
 
   [[main]]
   parent = "More"
-  name = "Blog"
-  url = "Blog/"
-  weight = 1
-
-  [[main]]
-  parent = "More"
   name = "Conferences"
   url = "conferences/"
-  weight = 2
+  weight = 1
   
 [[main]]
 name = "Contact"
@@ -61,11 +55,6 @@ url = "Outreach/"
 weight = 4
 
 [[footer]]
-name = "Blog"
-url = "Blog/"
-weight = 5
-
-[[footer]]
 name = "Contact"
 url = "contact/"
-weight = 6
+weight = 5
