@@ -9,7 +9,7 @@ conferences:
     years:
     - year: 2020
       contributions:    
-      - title: "Introduction to metabolomics"
+      - title: "Introduction to metabolomics (2h)"
         event: "Ecotechnologies for Sustainability and Environment Management. Master program from École Polytechnique"
         number: "5"
         country: "France"
