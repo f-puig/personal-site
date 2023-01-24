@@ -1,5 +1,5 @@
 ---
-title: Contribution in conferences
+title: Scientific communications
 description: ''
 layout: conferences
 conferences:
