@@ -28,9 +28,15 @@ hasChildren = true
 
   [[main]]
   parent = "More"
-  name = "Conferences"
-  url = "conferences/"
+  name = "Communications"
+  url = "communications/"
   weight = 1
+  
+  [[main]]
+  parent = "More"
+  name = "Teaching"
+  url = "teaching/"
+  weight = 2
   
 [[main]]
 name = "Contact"
