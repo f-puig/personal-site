@@ -103,8 +103,8 @@ funfacts:
   description: []
   funfact_item:
   - icon: fas fa-newspaper
-    name: Papers published
-    count: "17"
+    name: Articles published
+    count: "18"
   - icon: fas fa-bullhorn
     name: Given talks
     count: "5"
