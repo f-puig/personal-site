@@ -66,6 +66,18 @@ conferences:
 
   - title: "Posters in attended conferences"
     years:
+    - year: 2023
+      contributions:
+      - title: Using spectral matching for evaluating the performance of LC-MS metabolomics methods
+        event: 15émes journées scientifiques du RFMF
+        country: France
+        number: "12"
+        city: Perpignan
+        start_date: 24/06/2023
+        end_date: "26/06/2023"
+        award: false
+        invited: false
+        
     - year: 2021
       contributions:
       - title: Delineating the metabolomic response to metformin intake and its interaction with the microbiome
