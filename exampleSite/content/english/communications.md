@@ -7,6 +7,18 @@ conferences:
   typecont:
   - title: "Oral presentations"
     years:
+    - year: 2023
+      contributions:    
+      - title: "Using spectral matching for evaluating the performance of LC-MS metabolomics methods"
+        event: Metabolomics 2023
+        number: "6"
+        country: Canada
+        city: Niagara Falls
+        start_date: 18/06/2023
+        end_date: 22/06/2023
+        award: false
+        invited: false
+        
     - year: 2021
       contributions:    
       - title: "Can we monitor waste degradation using metabolomics?"
@@ -74,7 +86,7 @@ conferences:
         number: "12"
         city: Perpignan
         start_date: 24/06/2023
-        end_date: "26/06/2023"
+        end_date: 26/06/2023
         award: false
         invited: false
         
