@@ -9,19 +9,33 @@ publications:
     years:
     - yearname: "2023"
       articlemetadata:
+      - articlenum: "19"
+        Hot: false
+        titlepub: "Advances in the integration of metabolomics and metagenomics for human gut microbiome and their clinical applications"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Romina Pacheco-Tapia, Maxime Deslande, Manyi Jia, Petros Andrikopoulos, Kanta Chechi, Amélie Bonnefond, Philippe Froguel, Marc-Emmanuel Dumas"
+        journal: Trends in Analytical Chemistry
+        volume: ''
+        pages: "In press"
+        yearpub: "2023"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1016/j.trac.2023.117248
+          DOI: 10.1016/j.trac.2023.117248
+          enable: true
+        coverbutton: ''
       - articlenum: "18"
         Hot: false
         titlepub: "Evidence of a causal and modifiable relationship between kidney function and circulating trimethylamine N-oxide with implications for heart and kidney disorders"
         preFPC: "Petros Andrikopoulos, Judith Aron-Wisnewsky, Rima M Chakaroun, Antonis Myridakis, Sofia Kirke Forslund, Trine Nielsen, Solia Adriouch, Bridget Holmes, Julien Chilloux, Sara Vieira-Silva, Gwen Falony, Joe-Elie Salem, Fabrizio Andreelli, Eugeni Belda, Julius Kieswich, Kanta Chechi,"
         FPC: Francesc Puig-Castellví
         postFPC: "Mickael Chevalier, Emmanuelle Le Chatelier, Michael T Olanipekun, Lesley Hoyles, Renato Alves, Gerard Helft, Richard Isnard, Lars Køber, Luis Pedro Coelho, Christine Rouault, Dominique Gauguier, Jens Peter Gøtze, Edi Prifti, Jean-Daniel Zucker, Fredrik Bäckhed, Henrik Vestergaard, Torben Hansen, Jean-Michel Oppert, Matthias Blüher, Jens Nielsen, Jeroen Raes, Peer Bork, Muhammad M Yaqoob, Michael Stumvoll, Oluf Pedersen, S Dusko Ehrlich, Karine Clément, Marc-Emmanuel Dumas"
-        journal: medRxiv
+        journal: Nature Communications
         volume: ''
-        pages: "2022.11. 08.22282073"
-        yearpub: "2022"
+        pages: "In press"
+        yearpub: "2023"
         DOIbutton:
-          DOIlink: https://doi.org/10.1101/2022.11.08.22282073
-          DOI: 10.1101/2022.11.08.22282073
+          DOIlink: https://doi.org/10.1038/s41467-023-39824-4
+          DOI: 10.1038/s41467-023-39824-4
           enable: true
         coverbutton: ''
     - yearname: "2022"
