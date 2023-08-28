@@ -15,8 +15,8 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Romina Pacheco-Tapia, Maxime Deslande, Manyi Jia, Petros Andrikopoulos, Kanta Chechi, Amélie Bonnefond, Philippe Froguel, Marc-Emmanuel Dumas"
         journal: Trends in Analytical Chemistry
-        volume: ''
-        pages: "In press"
+        volume: '167'
+        pages: "117248"
         yearpub: "2023"
         DOIbutton:
           DOIlink: https://doi.org/10.1016/j.trac.2023.117248
