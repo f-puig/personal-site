@@ -227,7 +227,7 @@ publications:
         Hot: ''
         titlepub: Comparative analysis of 1H NMR and 1H–13C HSQC NMR metabolomics
           to understand the effects of medium composition in yeast growth
-        FPC: Francesc
+        FPC: Francesc Puig-Castellví
         postFPC: "Yolanda Pérez, Benjamín Piña, Romà Tauler, Ignacio Alfonso"
         journal: Analytical chemistry
         volume: 90 (21)
