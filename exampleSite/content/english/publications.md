@@ -15,8 +15,8 @@ publications:
         preFPC: "Olivier Chapleur, Angéline Guenne, Douglas N. Rutledge,"
         FPC: Francesc Puig-Castellví
         journal: Chemosphere
-        volume: 'xx'
-        pages: "xx"
+        volume: ''
+        pages: ""
         yearpub: "2023"
         DOIbutton:
           DOIlink: https://doi.org/xx
@@ -44,8 +44,8 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Mickael Chevalier, Emmanuelle Le Chatelier, Michael T Olanipekun, Lesley Hoyles, Renato Alves, Gerard Helft, Richard Isnard, Lars Køber, Luis Pedro Coelho, Christine Rouault, Dominique Gauguier, Jens Peter Gøtze, Edi Prifti, Jean-Daniel Zucker, Fredrik Bäckhed, Henrik Vestergaard, Torben Hansen, Jean-Michel Oppert, Matthias Blüher, Jens Nielsen, Jeroen Raes, Peer Bork, Muhammad M Yaqoob, Michael Stumvoll, Oluf Pedersen, S Dusko Ehrlich, Karine Clément, Marc-Emmanuel Dumas"
         journal: Nature Communications
-        volume: ''
-        pages: "In press"
+        volume: '14'
+        pages: "5843"
         yearpub: "2023"
         DOIbutton:
           DOIlink: https://doi.org/10.1038/s41467-023-39824-4
