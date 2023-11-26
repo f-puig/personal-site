@@ -9,6 +9,20 @@ publications:
     years:
     - yearname: "2023"
       articlemetadata:
+      - articlenum: "20"
+        Hot: false
+        titlepub: "Monitoring of cellulose-rich biowaste co-digestion with 3D fluorescence spectroscopy and mass spectrometry-based metabolomics"
+        preFPC: "Olivier Chapleur, Angéline Guenne, Douglas N. Rutledge,"
+        FPC: Francesc Puig-Castellví
+        journal: Chemosphere
+        volume: 'xx'
+        pages: "xx"
+        yearpub: "2023"
+        DOIbutton:
+          DOIlink: https://doi.org/xx
+          DOI: xx
+          enable: true
+        coverbutton: ''
       - articlenum: "19"
         Hot: false
         titlepub: "Advances in the integration of metabolomics and metagenomics for human gut microbiome and their clinical applications"
