@@ -7,7 +7,7 @@ publications:
   typepub:
   - title: Articles in scientific journals
     years:
-    - yearname: "2023"
+    - yearname: "2024"
       articlemetadata:
       - articlenum: "20"
         Hot: false
@@ -15,14 +15,16 @@ publications:
         preFPC: "Olivier Chapleur, Angéline Guenne, Douglas N. Rutledge,"
         FPC: Francesc Puig-Castellví
         journal: Chemosphere
-        volume: ''
-        pages: ""
-        yearpub: "2023"
+        volume: '349'
+        pages: "140824"
+        yearpub: "2024"
         DOIbutton:
-          DOIlink: https://doi.org/xx
-          DOI: xx
+          DOIlink: https://doi.org/10.1016/j.chemosphere.2023.140824
+          DOI: 10.1016/j.chemosphere.2023.140824
           enable: true
         coverbutton: ''
+    - yearname: "2023"
+      articlemetadata:
       - articlenum: "19"
         Hot: false
         titlepub: "Advances in the integration of metabolomics and metagenomics for human gut microbiome and their clinical applications"
