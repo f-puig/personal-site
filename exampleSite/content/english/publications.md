@@ -9,6 +9,21 @@ publications:
     years:
     - yearname: "2024"
       articlemetadata:
+      - articlenum: "21"
+        Hot: false
+        titlepub: "The Gut Microbiome Strongly Mediates the impact of Lifestyle combined variables on Cardiometabolic Phenotypes"
+        preFPC: "Solia Adriouch, Eugeni Belda, Timothy D Swartz, Sofia Forslund, Tiphaine Le Roy, Edi Prifti, Judith Aron-Wisnewsky, Rima Chakaroun, Trine Nielsen, Petros Andrikopoulos, Kanta Chechi,"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Philippe Froguel, Bridget Holmes, Rohia Alili, Fabrizio Andreelli, Hedi Soula, Joe-Elie Salem, Gwen Falony, Sara Vieira-Silva, Gianluca Galazzo, MetaCardis Consortium, Jeroen Raes, Peer Bork, Michael Stumvoll, Oluf Pedersen, S. Dusko Ehrlich, Marc-Emmanuel Dumas, Jean-Michel Oppert, Maria Carlota Dao, Jean-Daniel Zucker, Karine Clément"
+        journal: medRxiv
+        volume: '2024.01.'
+        pages: "12.24301195"
+        yearpub: "2024"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1101/2024.01.12.24301195
+          DOI: 10.1101/2024.01.12.24301195
+          enable: true
+        coverbutton: ''
       - articlenum: "20"
         Hot: false
         titlepub: "Monitoring of cellulose-rich biowaste co-digestion with 3D fluorescence spectroscopy and mass spectrometry-based metabolomics"
