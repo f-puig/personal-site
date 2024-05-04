@@ -9,6 +9,21 @@ publications:
     years:
     - yearname: "2024"
       articlemetadata:
+      - articlenum: "22"
+        Hot: false
+        titlepub: "Multivariate curve resolution-based data fusion approaches applied in 1H NMR metabolomic analysis of healthy cohorts"
+        preFPC: "Andrés R. Martínez Bilesio,"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Romà Tauler, Mariela Sciara, Fabián Fay, Rodolfo M. Rasia, Paula Burdisso, Alejandro G. García-Reiriz"
+        journal: Analytica Chimica Acta
+        volume: 'in press'
+        pages: "342689"
+        yearpub: "2024"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1016/j.aca.2024.342689
+          DOI: 10.1016/j.aca.2024.342689
+          enable: true
+        coverbutton: ''
       - articlenum: "21"
         Hot: false
         titlepub: "The Gut Microbiome Strongly Mediates the impact of Lifestyle combined variables on Cardiometabolic Phenotypes"
