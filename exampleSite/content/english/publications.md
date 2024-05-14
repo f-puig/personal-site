@@ -16,7 +16,7 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Romà Tauler, Mariela Sciara, Fabián Fay, Rodolfo M. Rasia, Paula Burdisso, Alejandro G. García-Reiriz"
         journal: Analytica Chimica Acta
-        volume: 'in press'
+        volume: '1309'
         pages: "342689"
         yearpub: "2024"
         DOIbutton:
