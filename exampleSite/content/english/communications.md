@@ -7,6 +7,18 @@ conferences:
   typecont:
   - title: "Oral presentations"
     years:
+    - year: 2024
+      contributions:    
+      - title: "Serum Metabolite Richness and the Influence of gut Microbiome and Nutrition on Metabolic Outcomes"
+        event: Think Tank EGID
+        number: "7"
+        country: France
+        city: Lille
+        start_date: 27/06/2024
+        end_date: 27/06/2024
+        award: false
+        invited: true
+        
     - year: 2023
       contributions:    
       - title: "Using spectral matching for evaluating the performance of LC-MS metabolomics methods"
@@ -78,15 +90,49 @@ conferences:
 
   - title: "Posters in attended conferences"
     years:
+    - year: 2024
+      contributions:
+      - title: Semi-automatic generation of a spectral library for metabolomics studies
+        event: 16èmes journées scientifiques du RFMF
+        country: France
+        number: "15"
+        city: Saint Malo
+        start_date: 04/06/2024
+        end_date: 06/06/2024
+        award: false
+        invited: false
+        
     - year: 2023
       contributions:
-      - title: Using spectral matching for evaluating the performance of LC-MS metabolomics methods
-        event: 15émes journées scientifiques du RFMF
+      - title: Drug x Microbiome x Metabolome Interactions in a Population with Type 2 Diabetes
+        event: EGID Symposium 
         country: France
-        number: "12"
+        number: "14"
+        city: Lille
+        start_date: 27/11/2023
+        end_date: 28/11/2023
+        award: false
+        invited: false
+      
+      - title: Using spectral matching for evaluating the performance of LC-MS metabolomics methods
+        event: 15èmes journées scientifiques du RFMF
+        country: France
+        number: "13"
         city: Perpignan
-        start_date: 24/06/2023
-        end_date: 26/06/2023
+        start_date: 24/05/2023
+        end_date: 26/05/2023
+        award: false
+        invited: false
+        
+    - year: 2022
+      contributions:
+      - title: Chemical identifiers as means for spectral library harmonization
+        event: 5th EGID Thematic School 
+        country: Belgium
+        number: "12"
+        city: Brugge
+        start_date: 12/10/2022
+        end_date: 14/10/2022
         award: false
         invited: false
         
