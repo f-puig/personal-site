@@ -9,6 +9,21 @@ publications:
     years:
     - yearname: "2024"
       articlemetadata:
+      - articlenum: "23"
+        Hot: false
+        titlepub: "Intrahepatic levels of microbiome-derived hippurate associates with improved metabolic dysfunction-associated steatotic liver disease"
+        preFPC: "Maxime Deslande,"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Inés Castro-Dionicio, Romina Pacheco-Tapia, Violeta Raverdy, Robert Caiazzo, Guillaume Lassailly, Audrey Leloire, Petros Andrikopoulos, Yasmina Kahoul, Nawel Zaïbi, Bénédicte Toussaint, Frédérik Oger, Nicolas Gambardella, Philippe Lefebvre, Mehdi Derhourhi, Souhila Amanzougarene, Bart Staels, François Pattou, Philippe Froguel, Amélie Bonnefond, Marc-Emmanuel Dumas"
+        journal: Molecular Metabolism
+        volume: ''
+        pages: "102090"
+        yearpub: "2024"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1016/j.molmet.2024.102090
+          DOI: 10.1016/j.molmet.2024.102090
+          enable: true
+        coverbutton: ''
       - articlenum: "22"
         Hot: false
         titlepub: "Multivariate curve resolution-based data fusion approaches applied in 1H NMR metabolomic analysis of healthy cohorts"
