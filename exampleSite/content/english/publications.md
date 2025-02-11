@@ -7,7 +7,7 @@ publications:
   typepub:
   - title: Articles in scientific journals
     years:
-    - yearname: "2024"
+    - yearname: "2025"
       articlemetadata:
       - articlenum: "23"
         Hot: false
@@ -16,7 +16,7 @@ publications:
         FPC: Francesc Puig-Castellví
         postFPC: "Inés Castro-Dionicio, Romina Pacheco-Tapia, Violeta Raverdy, Robert Caiazzo, Guillaume Lassailly, Audrey Leloire, Petros Andrikopoulos, Yasmina Kahoul, Nawel Zaïbi, Bénédicte Toussaint, Frédérik Oger, Nicolas Gambardella, Philippe Lefebvre, Mehdi Derhourhi, Souhila Amanzougarene, Bart Staels, François Pattou, Philippe Froguel, Amélie Bonnefond, Marc-Emmanuel Dumas"
         journal: Molecular Metabolism
-        volume: ''
+        volume: "92"
         pages: "102090"
         yearpub: "2024"
         DOIbutton:
@@ -24,6 +24,7 @@ publications:
           DOI: 10.1016/j.molmet.2024.102090
           enable: true
         coverbutton: ''
+    - yearname: "2024"
       - articlenum: "22"
         Hot: false
         titlepub: "Multivariate curve resolution-based data fusion approaches applied in 1H NMR metabolomic analysis of healthy cohorts"
