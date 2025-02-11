@@ -25,6 +25,7 @@ publications:
           enable: true
         coverbutton: ''
     - yearname: "2024"
+      articlemetadata:
       - articlenum: "22"
         Hot: false
         titlepub: "Multivariate curve resolution-based data fusion approaches applied in 1H NMR metabolomic analysis of healthy cohorts"
