@@ -7,6 +7,17 @@ conferences:
   typecont:
   - title: "Oral presentations"
     years:
+    - year: 2025
+      contributions:    
+      - title: "Metabolome Richness, its Determinants and its Relevance to Obesity"
+        event: 17èmes journées scientifiques du RFMF 
+        number: "8"
+        country: France
+        city: Paris
+        start_date: 11/06/2025
+        end_date: 13/06/2025
+        award: false
+        invited: false
     - year: 2024
       contributions:    
       - title: "Serum Metabolite Richness and the Influence of gut Microbiome and Nutrition on Metabolic Outcomes"
