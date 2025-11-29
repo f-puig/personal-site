@@ -14,7 +14,7 @@ outreach:
     comment: ''
     link: https://www.precidiab.org/portrait/francesc-puig-castellvi
     number_slide_carrousel: "0"
-    file: images/fig-outreach/precidiab_sceenshot.png
+    file: images/fig-outreach/precidiab_screenshot.png
     newsmedia: true
     spanish: false
     catalan: false
