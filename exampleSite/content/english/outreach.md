@@ -7,6 +7,19 @@ outreach:
   title2: In the media
   title2b: Other appearances
   news:
+    - caption: Francesc Puig Castellvi (interview)
+    source: PreciDiab newsletter
+    list_order: "9"
+    date: 15/07/2025
+    comment: ''
+    link: https://www.precidiab.org/portrait/francesc-puig-castellvi
+    number_slide_carrousel: "0"
+    file: images/fig-outreach/precidiab_sceenshot.png
+    newsmedia: true
+    spanish: false
+    catalan: false
+    english: false
+    french: true
   - caption: A multi-omics analysis of the effects of temperature changes in anaerobic
       digesters
     source: Life Sciences Université Paris-Saclay
@@ -14,7 +27,7 @@ outreach:
     date: 11/01/2022
     comment: ''
     link: https://www.scoop.it/topic/life-sci-news-upsaclay/p/4129389525/2022/01/11/une-analyse-multi-omique-des-effets-de-changements-de-temperature-dans-les-digesteurs-
-    number_slide_carrousel: "0"
+    number_slide_carrousel: "1"
     file: images/fig-outreach/metadiag.png
     newsmedia: true
     spanish: false
@@ -40,7 +53,7 @@ outreach:
     date: 11/04/2018
     list_order: "6"
     link: http://biotech-spain.com/es/articles/la-compresi-n-de-espectros-multidimensionales-permite-el-an-lisis-de-muestras-complejas-de-manera-m-s-r-pida-y-precisa/
-    number_slide_carrousel: "1"
+    number_slide_carrousel: "2"
     file: images/fig-outreach/voi_biotech.png
     newsmedia: true
     comment: ''
@@ -55,7 +68,7 @@ outreach:
     list_order: "5"
     date: 10/07/2017
     link: https://www.interempresas.net/Quimica/Articulos/188336-nueva-tecnica-permite-estudiar-con-mas-precision-interaccion-entre-sistemas-moleculares.html
-    number_slide_carrousel: "2"
+    number_slide_carrousel: "3"
     file: images/fig-outreach/interempresas.png
     spanish: true
     catalan: false
@@ -67,7 +80,7 @@ outreach:
     date: 21/06/2017
     list_order: "4"
     link: https://rdcsic.dicat.csic.es/en/tecnologias-quimicas-2/131-projects/421-molecular-ecosystems-that-interact-and-evolve
-    number_slide_carrousel: "3"
+    number_slide_carrousel: "4"
     file: images/fig-outreach/red_csic_dcl.png
     spanish: false
     catalan: false
@@ -80,7 +93,7 @@ outreach:
     source: CSIC
     list_order: "3"
     date: 13/06/2017
-    number_slide_carrousel: "4"
+    number_slide_carrousel: "5"
     link: https://www.csic.es/es/actualidad-del-csic/una-nueva-tecnica-permite-estudiar-con-mas-precision-la-interaccion-entre
     file: images/fig-outreach/csic.png
     newsmedia: true
@@ -94,7 +107,7 @@ outreach:
     source: Europapress
     date: 13/06/2017
     link: https://www.europapress.es/ciencia/noticia-csic-desarrolla-nueva-tecnica-permite-estudiar-mas-precision-interaccion-sistemas-moleculares-20170613173127.html
-    number_slide_carrousel: "5"
+    number_slide_carrousel: "6"
     file: images/fig-outreach/europapress.png
     spanish: true
     newsmedia: true
@@ -120,7 +133,7 @@ outreach:
     source: Mestrelab
     date: 10/05/2019
     link: https://resources.mestrelab.com/top-14-features-in-mnova-14/
-    number_slide_carrousel: "6"
+    number_slide_carrousel: "7"
     file: images/fig-outreach/mestre.png
     spanish: false
     newsmedia: false
@@ -136,7 +149,7 @@ outreach:
     date: 23/08/2017
     list_order: "1"
     link: https://onlinelibrary.wiley.com/doi/10.1002/anie.201783613
-    number_slide_carrousel: "7"
+    number_slide_carrousel: "8"
     file: images/fig-outreach/ange_spotlight_dcl.png
     addphoto: true
     newsmedia: false
