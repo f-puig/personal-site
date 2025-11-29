@@ -7,7 +7,7 @@ outreach:
   title2: In the media
   title2b: Other appearances
   news:
-    - caption: Francesc Puig Castellvi (interview)
+  - caption: Francesc Puig Castellvi (interview)
     source: PreciDiab newsletter
     list_order: "9"
     date: 15/07/2025
