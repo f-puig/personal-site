@@ -390,6 +390,23 @@ publications:
         coverbutton: ''
   - title: Book chapters
     years:
+     - yearname: "2026"
+      articlemetadata:
+      - articlenum: "2"
+        Hot: ''
+        titlepub: Data analysis in applications of chromatography coupled with mass spectrometry and ion mobility spectrometry
+        preFPC: 'Carlos Pérez-López, Joaquim Jaumot, '
+        FPC: Francesc Puig-Castellví
+        postFPC: ""
+        journal: Problem-Oriented Analytical Chemistry Driven by Chemometrics
+        volume: ""
+        pages: 335-357
+        yearpub: "2018"
+        DOIbutton:
+          enable: true
+          DOIlink: https://doi.org/10.1016/B978-0-443-22163-7.00018-8
+          DOI: 10.1016/B978-0-443-22163-7.00018-8
+        coverbutton: ''
     - yearname: "2018"
       articlemetadata:
       - articlenum: "1"
