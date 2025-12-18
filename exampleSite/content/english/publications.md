@@ -390,7 +390,7 @@ publications:
         coverbutton: ''
   - title: Book chapters
     years:
-     - yearname: "2026"
+    - yearname: "2026"
       articlemetadata:
       - articlenum: "2"
         Hot: ''
