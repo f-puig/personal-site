@@ -11,6 +11,21 @@ publications:
       articlemetadata:
       - articlenum: "23"
         Hot: false
+        titlepub: "Prominent mediatory role of gut microbiome in the effect of lifestyle on host metabolic phenotypes"
+        preFPC: "Solia Adriouch, Eugeni Belda, Timothy D Swartz, Sofia Forslund, Edi Prifti, Judith Aron-Wisnewsky, Rima Chakaroun, Trine Nielsen, Christine Poitou, Pierre Bel-Lassen, Christine Rouault, Tiphaine Le Roy, Petros Andrikopoulos, Kanta Chechi,"
+        FPC: Francesc Puig-Castellví
+        postFPC: "Ines Castro Dionicio, Philippe Froguel, Bridget Holmes, Rohia Alili, Fabrizio Andreelli, Hedi Soula, Joe-Elie Salem, Gwen Falony, Sara Vieira-Silva, MetaCardis Consortium, Jeroen Raes, Peer Bork, Michael Stumvoll, Oluf Pedersen, S. Dusko Ehrlich, Marc-Emmanuel Dumas, Jean-Michel Oppert, Maria Carlota Dao, Jean-Daniel Zucker, Karine Clément"
+        journal: Gut Microbes
+        volume: '17'
+        pages: "2599565"
+        yearpub: "2025"
+        DOIbutton:
+          DOIlink: https://doi.org/10.1080/19490976.2025.2599565
+          DOI: 10.1080/19490976.2025.2599565
+          enable: true
+        coverbutton: ''
+      - articlenum: "22"
+        Hot: false
         titlepub: "Intrahepatic levels of microbiome-derived hippurate associates with improved metabolic dysfunction-associated steatotic liver disease"
         preFPC: "Maxime Deslande,"
         FPC: Francesc Puig-Castellví
@@ -26,7 +41,7 @@ publications:
         coverbutton: ''
     - yearname: "2024"
       articlemetadata:
-      - articlenum: "22"
+      - articlenum: "21"
         Hot: false
         titlepub: "Multivariate curve resolution-based data fusion approaches applied in 1H NMR metabolomic analysis of healthy cohorts"
         preFPC: "Andrés R. Martínez Bilesio,"
@@ -39,21 +54,6 @@ publications:
         DOIbutton:
           DOIlink: https://doi.org/10.1016/j.aca.2024.342689
           DOI: 10.1016/j.aca.2024.342689
-          enable: true
-        coverbutton: ''
-      - articlenum: "21"
-        Hot: false
-        titlepub: "The Gut Microbiome Strongly Mediates the impact of Lifestyle combined variables on Cardiometabolic Phenotypes"
-        preFPC: "Solia Adriouch, Eugeni Belda, Timothy D Swartz, Sofia Forslund, Tiphaine Le Roy, Edi Prifti, Judith Aron-Wisnewsky, Rima Chakaroun, Trine Nielsen, Petros Andrikopoulos, Kanta Chechi,"
-        FPC: Francesc Puig-Castellví
-        postFPC: "Philippe Froguel, Bridget Holmes, Rohia Alili, Fabrizio Andreelli, Hedi Soula, Joe-Elie Salem, Gwen Falony, Sara Vieira-Silva, Gianluca Galazzo, MetaCardis Consortium, Jeroen Raes, Peer Bork, Michael Stumvoll, Oluf Pedersen, S. Dusko Ehrlich, Marc-Emmanuel Dumas, Jean-Michel Oppert, Maria Carlota Dao, Jean-Daniel Zucker, Karine Clément"
-        journal: medRxiv
-        volume: '2024.01.'
-        pages: "12.24301195"
-        yearpub: "2024"
-        DOIbutton:
-          DOIlink: https://doi.org/10.1101/2024.01.12.24301195
-          DOI: 10.1101/2024.01.12.24301195
           enable: true
         coverbutton: ''
       - articlenum: "20"
